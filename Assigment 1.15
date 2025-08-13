@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int c,f;
+    printf("the temp in ferheniet is");
+    scanf("%d",&f);
+    c=(5/9*f)-32;
+    printf("the temp in celsius is %d",c);
+
+
+    return 0;
+}
