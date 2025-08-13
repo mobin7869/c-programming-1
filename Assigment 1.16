@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    float i,p,r,n;
+    printf("enter principal value");
+    scanf("%f",&p);
+printf("enter rate of interest");
+    scanf("%f",&r);
+printf("enter rate of time");
+    scanf("%f",&n);
+    i=(p*r*n)/100;
+    printf("the interest is %.2f",i);
+
+    return 0;
+}
