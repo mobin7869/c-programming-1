@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int byte,kb,mb,gb;
+    printf("enter the no. of byte");
+    scanf("%d",&byte);
+    kb=byte/1024;
+    mb=byte/(1024*1024);
+    gb=byte/(1024*1024*1024);
+    printf("the value in kb is %d",kb);
+printf("the value in mb is %d",mb);
+printf("the value in gb is %d",gb);
+
+    
+    
+
+    return 0;
+}
