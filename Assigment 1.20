@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    float h,l,a;
+    printf("enter height of traiangle");
+    scanf("%f",&h);
+    printf("enter length of traiangle");
+    scanf("%d",&l);
+    
+    a=h*l/2;
+    printf("the area of traingle is%.2f",a);
+
+    return 0;
+}
