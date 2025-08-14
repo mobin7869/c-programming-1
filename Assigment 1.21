@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    float n,g,a,d;
+    printf("enter gross income");
+    scanf("%f",&g);
+    a=0.10*g;
+    d=0.03*g;
+    n=g+a-d;
+    printf("net income is %.2f",n);
+
+    return 0;
+}
